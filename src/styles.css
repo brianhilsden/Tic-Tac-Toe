@@ -1,0 +1,50 @@
+.tic-tac-toe-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  
+}
+.square{
+    border: 1px solid rebeccapurple;
+    float: left;
+    font-size: 50px;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+    margin-left: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+.restart{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    border-radius: 5px;
+}
+.status{
+    margin-top: 2rem;
+    text-align: center;
+}
+.title{
+    margin-top: 1rem;
+    text-align: center;
+    font-size:50px;
+    color:darkmagenta;
+    border-bottom: 2px black solid;
+    box-shadow: 2px 2px 2px purple;
+}
+
+@media screen and (min-width:576px) {
+    .tic-tac-toe-container{
+        margin-top: 40px;
+    }
+    .square{
+        height: 150px;
+        width: 150px;
+        font-size:80px;
+    }
+    .status{margin-top: 0;}
+    
+}
