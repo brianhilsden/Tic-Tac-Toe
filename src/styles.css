@@ -5,7 +5,9 @@
     margin-top: 100px;
   
 }
+
 .square{
+    background-color:darkgreen;
     border: 1px solid rebeccapurple;
     float: left;
     font-size: 50px;
@@ -16,6 +18,14 @@
     margin-top: -1px;
     cursor: pointer;
 }
+.default{
+    background-color: white;
+}
+.square-O{
+    background-color: grey;
+    
+}
+
 .restart{
     margin-top: 10px;
     width: 100px;
